@@ -13,18 +13,18 @@
                   Opções
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="COLOCAR" style="color: rgb(7, 6, 6);">Suporte</a></li>
-                  <li><a class="dropdown-item" href="COLOCAR" style="color: rgb(19, 16, 16);">Contato</a></li>
-                  <li><a class="dropdown-item" href="COLOCAR" style="color: rgb(14, 11, 11);"> Loja Fisica</a></li>
-                  <li><a class="dropdown-item" href="COLOCAR" style="color: rgb(7, 6, 6);">Rio do Sul</a></li>
+                  <li><a class="dropdown-item" href="?pagina=suporte" style="color: rgb(7, 6, 6);">Suporte</a></li>
+                  <li><a class="dropdown-item" href="?pagina=contato" style="color: rgb(19, 16, 16);">Contato</a></li>
+                  <li><a class="dropdown-item" href="?pagina=lojaf" style="color: rgb(14, 11, 11);"> Loja Fisica</a></li>
+                  <li><a class="dropdown-item" href="?pagina=logout" style="color: rgb(7, 6, 6);">Logout</a></li>
                 </ul>
               </li>
               <a class="nav-link" href=""></a>
               <li class="nav-item">
-                <a class="nav-link" href="add_produto.php" style="color: white;" >Adicionar Produtos</a>
+                <a class="nav-link" href="?pagina=addproduto" style="color: white;" >Adicionar Produtos</a>
               </li>
               <li class="nav-item">
-              <a class="nav-link" href="login.php" style="color: white;" >Login</a>
+              <a class="nav-link" href="?pagina=logout" style="color: white;" >Logout</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
