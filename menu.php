@@ -3,7 +3,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-2">
             <li class="nav-item">
-                <a class="nav-link" href="index.php" style="color:white;">Home</a>
+                <a class="nav-link" href="#" style="color:white;">Home</a>
               </li> 
               <li class="nav-item">
                 <a class="nav-link" href="#"></a>
@@ -16,7 +16,7 @@
                   <li><a class="dropdown-item" href="?pagina=suporte" style="color: rgb(7, 6, 6);">Suporte</a></li>
                   <li><a class="dropdown-item" href="?pagina=contato" style="color: rgb(19, 16, 16);">Contato</a></li>
                   <li><a class="dropdown-item" href="?pagina=lojaf" style="color: rgb(14, 11, 11);"> Loja Fisica</a></li>
-                  <li><a class="dropdown-item" href="?pagina=logout" style="color: rgb(7, 6, 6);">Logout</a></li>
+                  <li><a class="dropdown-item" href="?pagina=login" style="color: rgb(7, 6, 6);">Login</a></li>
                 </ul>
               </li>
               <a class="nav-link" href=""></a>
