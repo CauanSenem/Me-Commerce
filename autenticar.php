@@ -1,4 +1,5 @@
 <?php
+include "lib/conexao.php";
 if (
   isset($_POST["autenticar"]) &
   !empty($_POST["login"]) &
@@ -11,9 +12,10 @@ if (
   if ($consulta->rowCount() > 0) {
     if ($usuario["login"] == $_POST["login"]) {
       $_SESSION["autenticado"] = true;
-      header("Location: index.php");
+      echo "autenticado";
+      header("Location: ?pagina=home");
     }
   } else {
-    echo "Usuário encontrado";
+    include "erro.php";
   }
 }

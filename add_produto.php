@@ -14,10 +14,6 @@
     <fieldset>
       <h3 style="text-align: center; margin-top: 5%;">Adicionar Produto</h3>
     <div id="login_div" class="mb-3">
-        <label for="extInput" class="form-label">ID do Produto</label>
-        <input type="text" id="TextInput" class="form-control" placeholder="Insira o Numero de ID do estoque">
-    </div>
-    <div id="login_div" class="mb-3">
         <label for="extInput" class="form-label">Descrição</label>
         <input type="text" id="TextInput" class="form-control" placeholder="Sobre o Produto">
     </div>
@@ -41,14 +37,6 @@
     <div id="login_div"class="mb-3">
       <label for="extInput" class="form-label">Resumo</label>
         <input type="text" id="TextInput" class="form-control" placeholder="Sobre o Produto">
-    </div>
-    <div id="login_div"class="mb-3">
-      <div class="form-check">
-          Aceito os termos do site
-          <input class="form-check-input" type="checkbox" id="FieldsetCheck">
-          <label class="form-check-label" for="FieldsetCheck">
-          </label>
-      </div>
     </div>
     <button id="login_div" style="margin-botton: 4%;" type="submit" class="btn btn-primary">Continuar</button>
     </fieldset>
