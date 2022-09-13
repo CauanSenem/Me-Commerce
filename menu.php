@@ -20,9 +20,11 @@
                 </ul>
               </li>
               <a class="nav-link" href=""></a>
-              <li class="nav-item">
-                <a class="nav-link" href="?pagina=addproduto" style="color: white;" >Adicionar Produtos</a>
-              </li>
+              <?php if ($_SESSION["admin"] == $_SESSION["ver"]) {
+                echo "<li class='nav-item'>
+                      <a class='nav-link' href='?pagina=addproduto' style='color: white;'>Adicionar Produtos</a>
+                      </li>";
+              } ?>
               <li class="nav-item">
               <a class="nav-link" href="?pagina=sacola" style="color: white;">Carinho<?php if (
                 isset($_SESSION["sacola"])

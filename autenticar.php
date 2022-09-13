@@ -13,7 +13,8 @@ if (
     if ($usuario["login"] == $_POST["login"]) {
       $_SESSION["autenticado"] = true;
       $_SESSION["usuario"] = $usuario;
-      echo "autenticado";
+      $_SESSION["ver"] = $_POST["login"];
+      $_SESSION["admin"] = "ecocauan@gmail.com";
       header("Location: ?pagina=home");
     }
   } else {

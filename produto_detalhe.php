@@ -20,7 +20,6 @@ $produto_detalhes = $produto->fetch();
         <h3>R$ <?php echo $produto_detalhes["valor"]; ?></h3>
         </p>
         <p class="card-text">
-            <button class="sacola">Adicionar a sacola</button>
             <script>
             $(".sacola").click(function() {
                 $.post("", {
