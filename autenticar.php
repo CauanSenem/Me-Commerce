@@ -12,6 +12,7 @@ if (
   if ($consulta->rowCount() > 0) {
     if ($usuario["login"] == $_POST["login"]) {
       $_SESSION["autenticado"] = true;
+      $_SESSION["usuario"] = $usuario;
       echo "autenticado";
       header("Location: ?pagina=home");
     }

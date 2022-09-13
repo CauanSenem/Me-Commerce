@@ -24,6 +24,17 @@
                 <a class="nav-link" href="?pagina=addproduto" style="color: white;" >Adicionar Produtos</a>
               </li>
               <li class="nav-item">
+              <a class="nav-link" href="?pagina=sacola" style="color: white;">Carinho<?php if (
+                isset($_SESSION["sacola"])
+              ) {
+                echo "(" . count($_SESSION["sacola"]) . ")";
+              } ?></a>
+              </li>
+              <li class="nav-item">
+                <?php if (isset($_SESSION["autenticado"])) { ?>
+                <a class="nav-link" href="?pagina=meus_pedidos" style="color: white;">Meus pedidos</a><?php } ?>
+              </li>
+              <li class="nav-item">
               <a class="nav-link" href="?pagina=logout" style="color: white;" >Logout</a>
               </li>
             </ul>
