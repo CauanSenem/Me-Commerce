@@ -24,9 +24,14 @@
   margin-left: 100px;
   margin-bottom: 50px;
 }
+#text_categoriapai {
+  text-align: center;
+  color: red;
+  text-decoration: solid;
+}
 #text_categoria {
   text-align: center;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 #text_lateral {
@@ -57,4 +62,8 @@
 #login_div {
   margin-left: 12%;
   margin-right: 12%;
+}
+img {
+  height: 20%;
+  width: auto;
 }

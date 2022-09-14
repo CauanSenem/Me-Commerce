@@ -8,8 +8,9 @@ if (empty($linha_categoria["categoria_pai"])) {
   include "produtos_destaque.php";
 } else {
    ?>
-<h3>Produtos da Categoria: <?php echo $linha_categoria["descricao"]; ?> </h3>
-
+<div style="text-align:center;">
+  <h3>Produtos da Categoria: <?php echo $linha_categoria["descricao"]; ?> </h3>
+</div>
 <div class="row">
     <?php
     $sql_produtos = "SELECT * from produtos where categoria_id = :id";
@@ -32,6 +33,5 @@ if (empty($linha_categoria["categoria_pai"])) {
     <?php }
     ?>
 </div>
-
 <?php
 } ?>

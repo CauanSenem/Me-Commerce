@@ -4,13 +4,15 @@ $produto = $conn->prepare($sql_produto);
 $produto->execute(["id" => $_GET["id"]]);
 $produto_detalhes = $produto->fetch();
 ?>
-<h1><?php echo $produto_detalhes["descricao"]; ?></h1>
-
-
-<div class="card mb-3">
-    <img src="imagens/<?php echo $produto_detalhes[
-      "imagem"
-    ]; ?>" class="card-img-top" alt="...">
+<div class="container">
+    <h1><?php echo $produto_detalhes["descricao"]; ?></h1>
+    <div class="row"  style="width: 30rem;">
+        <div class = "row-container" >
+            <img src="<?php echo $produto_detalhes[
+              "imagem"
+            ]; ?>" class="card-img-top" alt="...">
+        </div>
+    </div>
     <div class="card-body">
         <h5 class="card-title"><?php echo $produto_detalhes[
           "descricao"
@@ -42,4 +44,5 @@ $produto_detalhes = $produto->fetch();
           "caracteristicas"
         ]; ?></small></p>
     </div>
+</div>
 </div>
