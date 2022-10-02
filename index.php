@@ -48,6 +48,4 @@ if (isset($_SESSION["autenticado"])) {
 } else {
   include "login.php";
 }
-
-
 ?>
