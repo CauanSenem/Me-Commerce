@@ -19,7 +19,7 @@
       <label for="extInput" class="form-label">Senha:</label>
       <input type="password" name="senha" class="form-control" placeholder="Insira sua chave de acesso">
     </div>
-    <div>
+    <div style="text-align: center;">
       <input class="btn btn-primary" type="submit" name="autenticar" value="Continuar">
   </fieldset>
   <div style="height: 30px;"></div>
